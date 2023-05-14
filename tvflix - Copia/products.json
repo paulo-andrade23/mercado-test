@@ -1,0 +1,60 @@
+{                          
+    "items": [
+      {
+        "sys": { "id": "1" },
+        "fields": {
+          "title": "Açúcar Olho D'Água refinada 1kg",
+          "price": 4.59,
+          "image": { "fields": { "file": { "url": "assets/images/acuca-olho5.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "2" },
+        "fields": {
+          "title": "Feijão kicaldo 1kg",
+          "price": 9.99,
+          "image": { "fields": { "file": { "url": "assets/images/feijao.png" } } }
+        }
+      },
+      {
+        "sys": { "id": "3" },
+        "fields": {
+          "title": "Arroz Meu Biju parbolizado tipo 1",
+          "price": 4.69,
+          "image": { "fields": { "file": { "url": "assets/images/arroz.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "4" },
+        "fields": {
+          "title": "Sal União 1kg",
+          "price": 1.29,
+          "image": { "fields": { "file": { "url": "assets/images/sal_uniao.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "5" },
+        "fields": {
+          "title": "Farinha Do Sítio 1k",
+          "price": 6.99,
+          "image": { "fields": { "file": { "url": "assets/images/farinha-sitio.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "6" },
+        "fields": {
+          "title": "Flocão Novo Milho 500g",
+          "price": 1.99,
+          "image": { "fields": { "file": { "url": "assets/images/flocao-novomilho.jpg" } } }
+        }
+      },
+      {
+        "sys": { "id": "7" },
+        "fields": {
+          "title": "Batata Palha Zéze 70g",
+          "price": 2.99,
+          "image": { "fields": { "file": { "url": "assets/images/batata-zeze" } } }
+        }
+      }
+    ]
+  }

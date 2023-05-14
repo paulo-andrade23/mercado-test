@@ -1,0 +1,821 @@
+<html lang="pt" class="translated-ltr">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+      - primary meta tags
+    -->
+  <title>Mercado Online</title>
+  <meta name="title" content="Mercado Online">
+  <meta name="description" content="A forma mais fácil de você fazer compras, sem sair de casa, com apenas um celular ou um computador">
+
+  <!-- 
+      - favicon
+    -->
+  <link rel="shortcut icon" href="./icone.png" type="image/svg+xml">
+
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <script src="./assets/js/menu.js"></script>
+
+  <!-- 
+      - google font link
+    -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&amp;display=swap" rel="stylesheet">
+
+  <!-- 
+      - custom css link
+    -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/carrinho.css"
+
+  <!-- 
+      - custom js link
+    -->
+  <script src="./assets/js/global.js" defer=""></script>
+  <script src="./assets/js/index.js" type="module"></script>
+  <script src="assets/js/carrinho.js"></script>
+
+  <link type="text/css" rel="stylesheet" charset="UTF-8"
+    href="https://www.gstatic.com/_/translate_http/_/ss/k=translate_http.tr.69JJaQ5G5xA.L.W.O/d=0/rs=AN8SPfpC36MIoWPngdVwZ4RUzeJYZaC7rg/m=el_main_css">
+</head>
+
+<body>
+
+  <!-- 
+      - #HEADER
+    -->
+
+  <header class="header">
+
+    <a href="./index.html" class="logo">
+      <img src="./assets/images/logotipo.png" width="140" height="32" alt="Logo">
+    </a>
+
+    <!--BARRA DE PESQUISA
+
+      <div class="search-box" search-box="">
+      <div class="search-wrapper" search-wrapper="">
+        <input type="text" name="search" aria-label="pesquisar filmes" placeholder="Pesquise o produto"
+          class="search-field" autocomplete="off" search-field="">
+
+        <img src="./assets/images/search.png" width="24" height="24" alt="procurar" class="leading-icon">
+      </div>
+
+      <button class="search-btn" search-toggler="">
+        <img src="./assets/images/close.png" width="24" height="24" alt="fechar caixa de pesquisa">
+      </button>
+    </div>-->
+    <div class="cart-btn">
+    <button class="menu-carrinho">
+      <img src="./assets/images/carrinho-comprar.png" width="24" height="24" alt="open menu" class="carrinho">
+    </button>
+    <div class="cart-items">0</div>
+
+      </div>
+   
+    <!--
+      <button class="search-btn" search-toggler=""="">
+      <img src="./assets/images/search.png" width="24" height="24" alt="caixa de pesquisa aberta">
+    </button>
+  -->
+
+    <button class="menu-btn" menu-btn="" menu-toggler="">
+      <img src="./assets/images/menuabrir.png" width="24" height="24" alt="open menu" class="menu">
+      <img src="./assets/images/closemeniu.png" width="24" height="24" alt="close menu" class="close">
+    </button>
+  
+
+
+  </header>
+
+<div class="cart-overlay">
+  <div class="cart">
+    <span class="close-cart">
+      <i class="fa fa-window-close"></i>
+    </span>
+    <h2>Carrinho de Compras</h2>
+    <div class="cart-content">
+      <!-- item carrinho -->
+      <div class="cart-item">
+        <img src="assets/images/acuca-olho5.jpg" alt="açucar">
+        <div>
+          <h4>Açúcar</h4>
+          <h5>R$ 4.99</h5>
+          <span class="remove-item">Remover</span>
+        </div>
+        <div>
+          <i class="fa fa-chevron-up"></i>
+          <p class="item-amount">1</p>
+          <i class="fa fa-chevron-down"></i>
+        </div>
+      </div>
+      <!-- final item -->
+    </div>
+    <div class="cart-footer">
+      <h3>Total da compra : R$ <span class="cart-total">0</span></h3>
+      
+      <button class="clear-cart banner-btn">Finalizar Compras</button>
+
+    </div>
+  </div>
+</div>
+
+
+  <main>
+    <!-- 
+        - #SIDEBAR
+      -->
+
+      <nav class="sidebar" sidebar="">
+        <div class="sidebar-inner">
+
+      <div class="sidebar-list">
+
+      <div id="navs" >
+
+
+          <p class="title">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Seções</font>
+            </font>
+          </p>
+          <ul>
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Alimentos</font>
+            </font>
+          </a></li>
+
+          <li><a href="" >
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Cereais</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Bebidas</font>
+            </font>
+          </a></li>
+
+         <li> <a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Limpezas</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Seção Kids</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="" >
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+
+          <li><a href="">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Produtos</font>
+            </font>
+          </a></li>
+          </ul>
+            <div class="sidebar-footer">
+
+          </div>
+        </div>
+      
+    </nav>
+    <div class="overlay" overlay="" menu-toggler=""></div>
+
+
+
+<!-----------------------------------imagem 1-------------------->
+
+    <article class="container" page-content="">
+      <section class="banner" aria-label="Filmes populares">
+        <div class="banner-slider">
+          <div class="slider-item active" slider-item="">
+            <img src="/assets/images/mc-online.jpg" alt="Loja Online" class="img-cover" loading="eager">
+
+            <div class="banner-content">
+
+              <h2 class="heading">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Mercado Online</font>
+                </font>
+              </h2>
+
+
+              <p class="banner-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Compre diretamente da sua<br>casa sem filas.</font>
+              </p>
+
+              <a href="./detail.html" class="btn" onclick="getMovieDetail(502356)">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Compre Agora!</font>
+                  </font>
+                </span>
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/comprar-online.png" alt="Logo shopping" class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Compre diretamente da sua Casa</font>
+                </font>
+              </h2>
+
+              <div class="meta-list">
+
+              </div>
+
+              <p class="banner-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Basta ter um celular ou um computador e fazer o pedido.</font>
+                </font>
+              </p>
+
+              <a href="./detail.html" class="btn">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Compre Agora!</font>
+                  </font>
+                </span>
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/food-delivery.jpeg" alt="" class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Tudo em um só lugar</font>
+                </font>
+              </h2>
+
+              <div class="meta-list">
+
+              </div>
+
+              <p class="banner-text">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Aproveite todas opções e variedades disponíveis</font>
+                </font>
+              </p>
+
+              <a href="./detail.html" class="btn" onclick="getMovieDetail(76600)">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Compre Agora!</font>
+                  </font>
+                </span>
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/cesta.png" alt="Crompras" class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Acima de 200 reais...</font>
+                </font>
+              </h2>
+
+              <p class="banner-text">
+                  <font style="vertical-align: inherit;">O frete é totalmente grátis. Então aproveite nossas promoções!</font>
+                </font>
+              </p>
+
+              <a href="./detail.html" class="btn">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">
+                  <font style="vertical-align: inherit;">
+                    <font style="vertical-align: inherit;">Compre Agora!</font>
+                  </font>
+                </span>
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/carrinho-verde.jpeg" alt="65" class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">
+                <font style="vertical-align: inherit;">
+                  <font style="vertical-align: inherit;">Compre e concorra a prêmios!</font>
+                </font>
+              </h2>
+
+              <div class="meta-list">
+                <div class="meta-item">
+                  <font style="vertical-align: inherit;">
+                  </font>
+                </div>
+
+                <div class="meta-item card-badge">
+                  <font style="vertical-align: inherit;">
+                  </font>
+                </div>
+              </div>
+
+              <p class="genre">
+                <font style="vertical-align: inherit;">
+                </font>
+              </p>
+
+              <p class="banner-text">Um cupom a cara 100 reais. Não perda essa oportunidade!</p>
+
+              <a href="./detail.html" class="btn">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">Compre Agora!</span>
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/carrinho-notebook.jpeg" alt="ofertas diárias"
+              class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">Todo o dia é dia de ofertas!</h2>
+
+              <div class="meta-list">
+
+              </div>
+
+
+              <p class="banner-text">Temos promoçôes atualizadas, diariamente</p>
+
+              <a href="./detail.html" class="btn">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">Compre Agora!</span>
+              </a>
+
+            </div>
+          </div>
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/cesta-vermelha.jpg"
+              alt="Gato de Botas: O Último Desejo" class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">Compras no cartão, avista e no pix!</h2>
+
+              <div class="meta-list">
+
+              </div>
+
+
+              <p class="banner-text">Além de poder comprar online, você pode comprar com o cartão de crédito</p>
+
+              <a href="./detail.html" class="btn">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">Compre Agora!</span>
+              </a>
+
+            </div>
+          </div>
+
+
+          <div class="slider-item" slider-item="">
+            <img src="assets/images/celular-market.png" alt="celular market"
+              class="img-cover" loading="lazy">
+
+            <div class="banner-content">
+
+              <h2 class="heading">Acompanhe as ofertas</h2>
+
+              <div class="meta-list">
+
+              </div>
+
+
+              <p class="banner-text">Em seu aparelho celular, acompanhe as ofertas.</p>
+
+              <a href="./detail.html" class="btn">
+                <img src="./assets/images/play_circle.png" width="24" height="24" aria-hidden="true"
+                  alt="jogar círculo">
+
+                <span class="span">Compre Agora!</span>
+              </a>
+
+            </div>
+          </div>
+
+            </div>
+          </div>
+        </div>
+
+
+
+        <!---------------------------- Contraslider-------------------------->
+        <div class="slider-control">
+          <div class="control-inner"><button class="poster-box slider-item active" slider-control="0">
+              <img src="assets/images/mc-online-corte2.jpg" alt="Deslize e acompanhe mais" loading="lazy"
+                draggable="false" class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="1">
+              <img src="assets/images/comprar-online-corte.jpg" alt="Deslize para o lado" loading="lazy" draggable="false"
+                class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="2">
+              <img src="assets/images/food-delivery-corte.jpeg" alt="Deslize" loading="lazy"
+                draggable="false" class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="3">
+              <img src="assets/images/cesta.png" alt="Deslize" loading="lazy" draggable="false"
+                class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="4">
+              <img src="assets/images/carrinho-verde.jpeg" alt="Deslize para ver mais"
+                loading="lazy" draggable="false" class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="5">
+              <img src="assets/images/notebook-carrinho.jpg"
+                alt="" loading="lazy" draggable="false" class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="6">
+              <img src="assets/images/cesta-vermelha-corte.jpg"
+                alt="" loading="lazy" draggable="false" class="img-cover">
+            </button>
+            <button class="poster-box slider-item" slider-control="7">
+              <img src="assets/images/celular-market-corte.png"
+                alt="" loading="lazy" draggable="false" class="img-cover">
+            </button>
+            
+          </div>
+        </div>
+      </section>
+
+
+
+
+
+      <section class="movie-list" aria-label="Filmes em alta semanais">
+        <div class="title-wrapper">
+          <h3 class="title-large">
+            <font style="vertical-align: inherit;">
+              <font style="vertical-align: inherit;">Sessão Alimentos</font>
+            </font>
+          </h3>
+        </div>
+        <!------------------------- slider 1--------------------->
+        <div class="slider-list">
+          <div class="slider-inner">
+
+            <div class="movie-card">
+            <figure class="poster-box card-banner">
+                <img src="assets/images/acuca-olho5.jpg" alt="Açúcar olho d'água" class="img-cover" loading="lazy">
+              </figure>
+
+
+            <h4 class="title">
+                  <font style="vertical-align: inherit;">Açúcar Olho D'Água refinada 1kg</font>
+              </h4><br>
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 4,59</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+
+                  <button class="bag-btn" data-id="1">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>
+                  
+                </div>
+              </div>
+
+            </div>
+            
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/feijao.png"
+                  alt="feijão kicaldo" class="img-cover" loading="lazy">
+              </figure>
+
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Feijão kicaldo 1kg</font><br>
+                  <font style="vertical-align: inherit;">por apenas:</font>
+              </h4><br>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 9,99</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="2">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>
+                </div>
+              </div>
+
+            </div>
+
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/arroz.jpg" alt="65" class="img-cover"
+                  loading="lazy">
+              </figure>
+
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Arroz Meu Biju parbolizado tipo 1<br>1kg</font>
+              </h4>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 4,59</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="3">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/sal_uniao.jpg"
+                  alt="Sal união" class="img-cover" loading="lazy">
+              </figure>
+
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Sal União 1kg por apenas:</font>
+              </h4><br>
+              <div class="meta-list">
+                <div class="meta-item">
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 1,29</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="4">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/farinha-sitio.jpg" alt="farinha"
+                  class="img-cover" loading="lazy">
+              </figure>
+
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Farinha Do Sítio 1k por apenas:</font>
+              </h4><br>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 6,99</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">                  
+                  <button class="bag-btn" data-id="5">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>  
+                </div>
+              </div>
+            </div>
+
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/flocao-novomilho.jpg"
+                  alt="flocão novo milho" class="img-cover" loading="lazy">
+              </figure>
+
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Flocão Novo Milho 500g</font>
+              </h4><br>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 1,95</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="6">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/flocao-nordestino.jpg" alt="flocão nordestino"
+                  class="img-cover" loading="lazy">
+              </figure>
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Flocão Nordestino 500g</font>
+              </h4><br>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 1,89</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="7">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>  
+                </div>
+              </div>
+            </div>
+
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/flocao-nordestino.jpg" alt="flocão nordestino"
+                  class="img-cover" loading="lazy">
+              </figure>
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Flocão Nordestino 500g</font>
+              </h4><br>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 1,89</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="7">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>  
+                </div>
+              </div>
+            </div>
+
+            <div class="movie-card">
+              <figure class="poster-box card-banner">
+                <img src="assets/images/flocao-nordestino.jpg" alt="flocão nordestino"
+                  class="img-cover" loading="lazy">
+              </figure>
+              <h4 class="title">
+                  <font style="vertical-align: inherit;">Flocão Nordestino 500g</font>
+              </h4><br>
+
+              <div class="meta-list">
+                <div class="meta-item">
+
+                  <span class="span">
+                      <font style="vertical-align: inherit;">R$ 1,89</font>
+                  </span>
+                </div><br>
+
+                <div class="card-badge">
+                  <button class="bag-btn" data-id="7">
+                    <i class="fa fa-cart-arrow-down"></i>
+                    <font style="vertical-align: inherit;">+</font>
+                  </button>  
+                </div>
+              </div>
+            </div>
+        
+      </div>
+    </div>
+      </section>
+
+
+
+
+
+
+
+
+      </section>
+    </article>
+  </main>
+
+
+
+</body>
+
+</html>
